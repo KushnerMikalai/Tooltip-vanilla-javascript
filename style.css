@@ -1,0 +1,35 @@
+body {
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+  width: 100%;
+  display: block;
+  margin: 0;
+}
+
+body * {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 0 15px;
+  overflow: hidden;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 15px;
+  border-radius: 30px;
+  border: 1px solid #e0e0e0;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.tooltip {
+  position: fixed;
+  max-width: 290px;
+  padding: 10px 15px;
+  background-color: #fff;
+  box-shadow: 0 0 10px 0px #e5e5e5;
+}
